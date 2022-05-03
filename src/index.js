@@ -21,10 +21,10 @@ Mirador.viewer({
     sideBarOpen: false, // Configure if the sidebar (and its content panel) is open by default
     switchCanvasOnSearch: false, // Configure if Mirador should automatically switch to the canvas of the first search result
     views: [
-      { key: 'single', behaviors: ['individuals'] },
-      { key: 'book', behaviors: ['paged'] },
-      { key: 'scroll', behaviors: ['continuous'] },
-      { key: 'gallery' },
+      { key: 'single',  },
+          { key: 'book',  },
+          { key: 'scroll',  },
+          { key: 'gallery' },
     ],
   },
 
