@@ -4,7 +4,7 @@ Mirador.viewer({
   id: "app",
 
   window: {
-    allowClose: true, // Configure if windows can be closed or not
+    allowClose: false, // Configure if windows can be closed or not
     allowFullscreen: true, // Configure to show a "fullscreen" button in the WindowTopBar
     allowMaximize: false, // Configure if windows can be maximized or not
     allowTopMenuButton: true, // Configure if window view and thumbnail display menu are visible or not
@@ -53,7 +53,7 @@ Mirador.viewer({
       "loadedManifest": "https://iiif.lib.harvard.edu/manifests/drs:48309543",
       "canvasIndex": 2,
       sideBarOpen: false,
-
+      view:'gallery',
     }
   ],
 
